@@ -1,0 +1,28 @@
+{
+  "name": "vcmonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rde9/VCMonitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rde9/VCMonitor/issues"
+  },
+  "homepage": "https://github.com/rde9/VCMonitor#readme",
+  "dependencies": {
+    "diff": "^5.1.0",
+    "diff2html": "^3.4.18",
+    "log4js": "^6.6.1",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^16.2.0"
+  }
+}

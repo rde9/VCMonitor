@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "name": "Shima Capital",
+            "url": "https://shima.capital/investments/",
+            "xpath": "//section[@class='company']"
+        },
+        {
+            "name": "Nascent",
+            "url": "https://www.nascent.xyz/portfolio",
+            "xpath": "//div[@class='section-3 gallery w-container']"
+        },
+        {
+            "name": "ZK Validator",
+            "url": "https://zkvalidator.com/investments",
+            "xpath": "//div[@class='container container--terms investments']"
+        }
+    ]
+}
