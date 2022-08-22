@@ -17,8 +17,8 @@ async function scraper(browser, tasks) {
     dataObj['innerHTML'] = await element.evaluate(ele => ele.innerHTML);
     let date = new Date().toISOString();
     dataObj['formattedDate'] = date.replace(/\:/g, '-').slice(0, -5);
-    resolve(dataObj);
     await page.close();
+    resolve(dataObj); // close page before resolving
   });
 
   // Loop through tasks
